@@ -1,0 +1,29 @@
+.product-item {
+    border: 1px solid #dcdcdc;
+    padding: 1rem;
+    width: 400px;
+    margin: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &__title {
+        font-size: 1.5em;
+    }
+
+    &__desc {
+        margin: 0;
+    }
+
+    &__price {
+        font-weight: bold;
+    }
+
+    &__button {
+        background-color: #441D81;
+        border-radius: 4px;
+        color: #FFFFFF;
+        margin-top: auto;
+    }
+}
